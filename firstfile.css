@@ -1,0 +1,85 @@
+body{
+    background-color: bisque;
+}
+h1 {
+    color:rgb(205, 146, 240);
+    background-color:#a55b4c;
+    text-align: center;
+    /*text-decoration: blue underline ;*/
+    line-height: normal;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: serif,sans-serif;
+    width: 400px;
+    height: 400px;
+    border-width: 10px;
+    border-color: rgba(228, 68, 220, 0.993);
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+header {
+    display: inline-block;
+    line-height: 50px;
+    border-bottom:5px solid chocolate;
+}
+nav form{
+    display: inline;
+}
+header button{
+    color:lightgoldenrodyellow;
+    background-color: burlywood;   
+}
+.headerforms{
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+input[type="password"]{
+    color: red;
+}
+header form button:hover{
+    background-color: bisque;
+    color: brown;
+    font-size: medium;
+}
+a:hover{
+    text-decoration: red underline;
+}
+.vtop button{
+    background-color: snow;
+    color: tan;
+}
+.vtop button:hover{
+    background-color: sandybrown;
+    color: rgba(250, 248, 218, 0.993);
+    font-size: medium;
+}
+.vtop button:active{
+    background-color: red;
+    color: seashell;
+}
+.headerforms button:active{
+    background-color: red;
+    color: seashell;
+}
+.headerforms input{
+    background-color: tan;
+    color: wheat;
+    padding:5px;
+}
+.headerforms label{
+    background-color: cornsilk;
+    color: brown;
+    font-weight: 700;
+    font-size: 20px;
+    padding:5px;
+}
+h1 p::first-letter{
+    color: purple;
+    font-size: 100px;
+}
+button{
+    padding:5px;
+    border-radius: 40%;
+}
