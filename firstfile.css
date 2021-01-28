@@ -17,6 +17,7 @@ h1 {
     border-style: solid;
     box-sizing: border-box;
     border-radius: 50%;
+    margin-left: 400px;
 }
 header {
     display: inline-block;
@@ -80,6 +81,20 @@ h1 p::first-letter{
     font-size: 100px;
 }
 button{
-    padding:5px;
-    border-radius: 40%;
+    padding:0.5em;
+    border-radius:2em;
+}
+.vtop{
+    margin-left: 450px;
+    border:10px solid rgba(228, 68, 220, 0.993);
+    width:300px;
+    background-color:#a55b4c;
+    box-sizing: border-box;
+    text-align: center;
+    color: cornsilk;
+    font-weight: 700;
+}
+.vtop input{
+    background-color:cornsilk;
+    color:brown;
 }
