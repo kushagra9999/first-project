@@ -35,7 +35,7 @@ header button{
 .headerforms{
     text-align: right;
     padding-right: 100px;
-    padding-left: 100px;
+    padding-left: 90px;
 }
 input[type="password"]{
     color: red;
